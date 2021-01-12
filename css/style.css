@@ -1,0 +1,100 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(190, 225, 253, 0.932);
+}
+
+.container
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 30px auto;
+    max-width: 430px ;
+}
+
+header
+{
+    padding-left: 20px;
+    min-height:50px ;
+}
+
+main
+{
+    padding-top: 20px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 20px;
+    min-height:400px;
+    box-shadow: 10px 10px #888888;
+    text-align: center;
+}
+
+.image
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+
+header
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+.underline
+{
+    margin: 0px auto;
+    background-color: rgb(64, 152, 224);
+    width:100px;
+    height: 5px;
+}
+
+h2,p
+{
+    margin-top: 5px;
+}
+
+h5
+{
+    color: lightseagreen;
+    font-size: 16.28px;
+}
+
+p
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+button
+{
+    background: none;
+    color: lightseagreen;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 30px;
+}
+
+button:hover
+{
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+}
